@@ -5,7 +5,7 @@ from vector_search import FAQSearch
 import requests
 
 # Укажите ваш токен Telegram-бота
-TOKEN = "5480073812:AAFAJeBEU8VEyrBqRLRznD_dzhDxI82-ju0"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 
 # Путь к базе данных
@@ -21,7 +21,7 @@ def req(question):
     headers = {
         'Content-Type': 'application/json',
         'Accept': 'application/json',
-        'Authorization': 'Bearer sk-udLseozVcSNZtAH7qO58d82hc5O3luNZDiT59DoOS6t8Y8l0FVNqblFu24OW'
+        'Authorization': ''
     }
 
     # URL эндпоинта API
